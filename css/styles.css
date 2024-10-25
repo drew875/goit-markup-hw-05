@@ -664,7 +664,18 @@ footer {
     letter-spacing: 0.02em;
     color: var(#2E2F42);
     margin-bottom: 16px;
+}
 
+.forms {
+    margin-bottom: 8px;
+}
 
+.labels-forms {
+    font-size: 12px;
+    line-height: 1.17;
+    letter-spacing: 0.04em;
+    color: var (#8e8f99);
+    display: block;
+    margin-bottom: 4px;
 
 }
