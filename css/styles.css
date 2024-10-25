@@ -698,4 +698,15 @@ footer {
 
 .user-name-input:focus {
     border-color: #4D5AE5;
+
+}
+
+.user-name-icon {
+    position: absolute;
+    left: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+
 }
