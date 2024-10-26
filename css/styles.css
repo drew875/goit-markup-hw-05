@@ -781,3 +781,7 @@ footer {
 }
 
 .check-icon {}
+
+.policy-link {
+    color: var(--LIGHT-SLATE, #8E8F99);
+}
