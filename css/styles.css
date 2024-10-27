@@ -20,6 +20,7 @@ img {
 }
 
 :root {
+    --ocean: #2E2F42;
     --iris: #4d5ae5;
     --white: #f4f4fd;
     --grey: #8e8f99;
@@ -665,7 +666,7 @@ footer {
     line-height: 1.5;
     text-align: center;
     letter-spacing: 0.02em;
-    color: var(--iris);
+    color: var(--ocean);
     margin-bottom: 16px;
 }
 
@@ -743,7 +744,8 @@ footer {
     border-color: #4D5AE5;
 }
 
-.modal-checkbox {
+
+.modal-chekbox {
     margin-bottom: 24px;
 
 }
