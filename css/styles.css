@@ -149,7 +149,7 @@ address {
 
 }
 
-.contacts::after {
+.contacts ::after {
     content: '';
     width: 100%;
     position: absolute;
@@ -633,6 +633,10 @@ footer {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
+.modal-window:hover+.close-btn {
+    fill: #ffffff;
+}
+
 .close-btn:hover {
     background-color: #404bbf;
     border: none;
@@ -644,6 +648,11 @@ footer {
     border: none;
 
 }
+
+.modal-window:focus+.close-btn {
+    fill: #ffffff;
+}
+
 
 .close-icon {
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
