@@ -20,6 +20,8 @@ img {
 }
 
 :root {
+    --cheking: #F4F4FD;
+    --chek: #404bbf;
     --ocean: #2E2F42;
     --iris: #4d5ae5;
     --white: #f4f4fd;
@@ -594,6 +596,9 @@ footer {
 }
 
 .backdrop {
+    /*opacity: 0;
+    visibility: hidden;
+    pointer-events: none;*/
     position: fixed;
     top: 0;
     left: 0;
@@ -602,6 +607,14 @@ footer {
     height: 100%;
     z-index: 999;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.is-open {
+    opacity: 1;
+    visibility: visible;
+    pointer-events: auto;
+
 }
 
 .modal-window {
@@ -656,7 +669,7 @@ footer {
 
 }
 
-.close-btn:focus+.close-icon {
+.close-btn:focus .close-icon {
     fill: #ffffff
 }
 
@@ -861,4 +874,10 @@ footer {
 
 .footer-form-svgico {
     margin-left: 16px;
+}
+
+.input-chekbox+.label-checkbox>span {
+    background-color: var(--chek);
+    border: none;
+    fill: var(--cheking);
 }
