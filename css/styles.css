@@ -782,6 +782,10 @@ footer {
     color: var(--LIGHT-SLATE, #8E8F99);
 }
 
+
+
+.container-form {}
+
 .subtitle-form {
     margin-bottom: 16px;
     font-weight: 500;
@@ -814,6 +818,7 @@ footer {
 
 .footer-form-btn {
     height: 40px;
+    min-width: 165px;
     display: flex;
     justify-content: center;
     align-items: center;
