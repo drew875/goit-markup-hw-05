@@ -776,6 +776,9 @@ footer {
     align-items: center;
     justify-content: center;
     fill: transparent;
+    gap: 100px;
+
+
 
 }
 
@@ -807,7 +810,7 @@ footer {
 
 }
 
-.check-icon {}
+
 
 .policy-link {
     color: var(--iris);
@@ -818,10 +821,6 @@ footer {
 }
 
 
-
-.container-form {
-    margin-left: 80px;
-}
 
 .subtitle-form {
     margin-bottom: 16px;
@@ -876,7 +875,7 @@ footer {
     margin-left: 16px;
 }
 
-.input-chekbox+.label-checkbox>span {
+.input-chekbox:checked+.label-checkbox>.checkbox-span {
     background-color: var(--chek);
     border: none;
     fill: var(--cheking);
