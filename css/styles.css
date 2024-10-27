@@ -670,7 +670,7 @@ footer {
 }
 
 .close-btn:focus .close-icon {
-    fill: #ffffff
+    fill: #ffffff;
 }
 
 
@@ -776,7 +776,6 @@ footer {
     align-items: center;
     justify-content: center;
     fill: transparent;
-    gap: 100px;
 
 
 
@@ -789,6 +788,7 @@ footer {
     color: #8e8f99;
     max-width: 338px;
     flex-shrink: 0;
+    gap: 8px;
 
 }
 
@@ -818,6 +818,7 @@ footer {
     line-height: 16px;
     letter-spacing: 0.48px;
     text-decoration-line: underline;
+    display: inline-block;
 }
 
 
@@ -879,4 +880,9 @@ footer {
     background-color: var(--chek);
     border: none;
     fill: var(--cheking);
+}
+
+.container-form-footer {
+
+    margin-left: 80px;
 }
