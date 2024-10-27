@@ -633,7 +633,7 @@ footer {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.modal-window:hover+.close-btn {
+.close-btn:hover+.close-icon {
     fill: #ffffff;
 }
 
@@ -649,7 +649,7 @@ footer {
 
 }
 
-.modal-window:focus+.close-btn {
+.close-btn:focus+.close-icon {
     fill: #ffffff;
 }
 
